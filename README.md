@@ -14,15 +14,6 @@ This folder contains Autodesk Inventor files and STEP files related to bellmouth
   * 3D domain with struts
   * 3D domain without struts
   * 3D domain lateral wind simulation
-
-
-# CFD_simulations
-During the thesis development serveral CFD simulations were performed to validate the intake geometry. Multiple 2D and 3D simulations along with all necessary files to run them successfully can be found in this folder. The included files correspond to the following simulations:
-  * 2D_Compressible_flow_simulation
-  * 2D_Incompressible_flow_simulation
-  * 3D_simulation_No_Struts
-  * 3D_simulation_With_Struts
-  * Lateral_Wind_simulations
     
 # Data_acquisition_code
 In this file all the programming code that makes the data acquisition system work can be found. This code is uploaded to the ESP32-S3 microcontroller, through Platformio in visual studio code. All the programing is done in c++ and headers, functions and main files can be found.
